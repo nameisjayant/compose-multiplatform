@@ -1,0 +1,17 @@
+[versions]
+compose-bom-version = "2023.08.00"
+compose-material-version = "1.5.0"
+activity-compose-version = "1.7.2"
+
+[libraries]
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom-version" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation" }
+compose-material = { group = "androidx.compose.material", name = "material", version = "compose-material-version" }
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+compose-activity= { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose-version" }
+
+[plugins]
+
+
